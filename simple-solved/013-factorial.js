@@ -2,7 +2,7 @@ const factorial = (num) => {
   let fact = 1;
   if (num < 0) {
     return "Negative number are not allowed";
-  } else if ((num == 0)) {
+  } else if (num == 0) {
     return fact;
   } else {
     for (let i = 1; i <= num; i++) {

@@ -5,7 +5,7 @@ const givenIndexNumSum = (array, first, second) => {
   }
   // console.log(sum);
   return sum;
-}
+};
 let arr = [
   1, 3, 22, 900, 6, 7, -1, 0, 900, 80, -20, 12, 1, 4, 5, 22, 70, 5, 2, 3,
 ];
