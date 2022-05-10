@@ -1,7 +1,7 @@
 const factorial = (num) => {
   let fact = 1;
   if (num < 0) {
-    return "Negative number are not allowed";
+    throw new Error("No greatest common divisor");
   } else if (num == 0) {
     return fact;
   } else {
@@ -12,5 +12,5 @@ const factorial = (num) => {
   }
 };
 
-let num = 3;
-console.log(factorial(num));
+const num = 3;
+console.log(factorial(-1));
