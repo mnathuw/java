@@ -11,7 +11,7 @@ const duplicate = (array) => {
       max_index = i;
     }
   }
-  return "max = " + max + "\nmax_indexes = " + max_index;
+  return { max: max, nmax_indexes: max_index };
 };
 let arr = [
   1, 2, 22, 900, 6, 7, -1, 0, 900, 80, -20, 12, 1, 4, 5, 22, 70, 5, 2, 3,

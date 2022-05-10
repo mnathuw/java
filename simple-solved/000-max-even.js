@@ -1,10 +1,8 @@
 const maxEven = (array) => {
   let c = array[0];
-  let index = 0;
   for (let i = 0; i < array.length; i++) {
     if (array[i] % 2 === 0 && c < array[i]) {
       c = array[i];
-      index = i;
     }
   }
   return c;
